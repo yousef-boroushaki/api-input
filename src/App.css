@@ -1,0 +1,46 @@
+.inp{
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.inp label{
+  margin: 0 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+.inp input{
+  width: 300px;
+  border-radius: .5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-css{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: .5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.img-css{
+  width: 100px;
+  height: 120px;
+}
